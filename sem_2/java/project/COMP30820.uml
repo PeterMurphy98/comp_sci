@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_x5RHcLMZEeurRcXnMM8IMw" name="COMP30820">
+    <eAnnotations xmi:id="_1HeI0LMZEeurRcXnMM8IMw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_1Hev4LMZEeurRcXnMM8IMw" source="codegen">
+        <details xmi:id="_1HfW8LMZEeurRcXnMM8IMw" key="codegenDirectory" value="/COMP30820/src"/>
+        <details xmi:id="_kw4fcLMaEeurRcXnMM8IMw" key="AssociatedSourceCode" value="/COMP30820/src/hw2/q1.java;1635633688/1;/COMP30820/src/hw2/q2.java;3900335256/1;/COMP30820/src/hw2/q3.java;1878670679/1;/COMP30820/src/hw3/Account.java;4206572082/1;/COMP30820/src/hw3/RegularPolygon.java;3832677219/1;/COMP30820/src/hw4/Q1.java;2732346854/1;/COMP30820/src/hw4/Q2.java;1262551679/1;/COMP30820/src/ma5/Circle.java;1582951054/1;/COMP30820/src/ma5/Test.java;4086081171/1;/COMP30820/src/project/LimitedPlayer.java;2295856169/1;/COMP30820/src/project/Main.java;3831427776/1;/COMP30820/src/project/Player.java;1881853822/1;/COMP30820/src/project/VIPPlayer.java;1095383880/1;/COMP30820/src/test1/Q1.java;4069980583/1;/COMP30820/src/test1/Q2.java;84900992/1;/COMP30820/src/test1/Q3.java;1203503432/1;/COMP30820/src/test2/Employee.java;932417132/1;/COMP30820/src/test2/Manager.java;2514866601/1;/COMP30820/src/test2/Person.java;3309356400/1;/COMP30820/src/test2/Student.java;1369929101/1;/COMP30820/src/test2/Test.java;3750437145/1;/COMP30820/src/ma5/Scalable.java;193035642/1;/COMP30820/src/ma5/Rotatable.java;684616600/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_1xXaYLMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_1xYBcLMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_1xYogLMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_1xYogbMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_1xYogrMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_1xYog7MZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_1xZPkLMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_1xZPkbMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_1xadsLMZEeurRcXnMM8IMw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1xjnoLMZEeurRcXnMM8IMw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1xkOsLMZEeurRcXnMM8IMw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2EnGgLMZEeurRcXnMM8IMw" name="Scanner"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_2FHc0LMZEeurRcXnMM8IMw" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2FnzILMZEeurRcXnMM8IMw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2FpoULMZEeurRcXnMM8IMw" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2Gt_ULMZEeurRcXnMM8IMw" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1yL5wLMZEeurRcXnMM8IMw" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2EsmELMZEeurRcXnMM8IMw" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1ygp4LMZEeurRcXnMM8IMw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2EzTwLMZEeurRcXnMM8IMw" name="Math"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_2GJ-oLMZEeurRcXnMM8IMw" name="Comparable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1ynXkLMZEeurRcXnMM8IMw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2E4zULMZEeurRcXnMM8IMw" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2E72oLMZEeurRcXnMM8IMw" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2E-S4LMZEeurRcXnMM8IMw" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2FBWMLMZEeurRcXnMM8IMw" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1yrpALMZEeurRcXnMM8IMw" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2FFAkLMZEeurRcXnMM8IMw" name="SimpleDateFormat"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1xv04LMZEeurRcXnMM8IMw" name="hw2">
+      <packagedElement xmi:type="uml:Class" xmi:id="_11DAgLMZEeurRcXnMM8IMw" name="q1">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2H4c8LMZEeurRcXnMM8IMw" name="futureValue" specification="_11MxgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2H5EALMZEeurRcXnMM8IMw" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2H5EAbMZEeurRcXnMM8IMw" name="monthlyRate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2H5EArMZEeurRcXnMM8IMw" name="years">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2H5EA7MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double fV = amount * Math.pow(1+monthlyRate, years*12);&#xD;
+		return fV;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IA_0LMZEeurRcXnMM8IMw" name="main" specification="_11S4ILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IBm4LMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IBm4bMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read amount, yearly rate&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.print(&quot;The amount invested: &quot;);&#xD;
+		double amt = input.nextDouble();&#xD;
+		while (amt &lt; 0) {&#xD;
+			System.out.println(&quot;Invalid amount. Enter a positive number: &quot;);&#xD;
+			amt = input.nextDouble();&#xD;
+		}&#xD;
+		System.out.print(&quot;Annual interest rate: &quot;);&#xD;
+		double rate = input.nextDouble();&#xD;
+		// Print years-value table&#xD;
+		System.out.println(&quot;Years   Value&quot;);&#xD;
+		for (int i = 0; i &lt; 30; i++) {&#xD;
+			System.out.format(&quot;%-7d %.2f \n&quot;, i+1, futureValue(amt, rate/1200, i+1));&#xD;
+		}&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_11MxgLMZEeurRcXnMM8IMw" name="futureValue" isStatic="true" method="_2H4c8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11NYkLMZEeurRcXnMM8IMw" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11N_oLMZEeurRcXnMM8IMw" name="monthlyRate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11N_obMZEeurRcXnMM8IMw" name="years">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11Qb4LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11S4ILMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IA_0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11TfMLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_11UGQLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_11UtULMZEeurRcXnMM8IMw" name="q2">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ICN8LMZEeurRcXnMM8IMw" name="twoCharacters" specification="_11WigLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ICN8bMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2ICN8rMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (pw.length() > 1) {&#xD;
+			return true;&#xD;
+		}&#xD;
+		else {&#xD;
+			return false;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IDcELMZEeurRcXnMM8IMw" name="onlyLettersDigits" specification="_11YXsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IDcEbMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IDcErMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; pw.length(); i++) {&#xD;
+			if (Character.isDigit(pw.charAt(i)) || Character.isLetter(pw.charAt(i))) {&#xD;
+				continue;&#xD;
+			}&#xD;
+			else {&#xD;
+				return false;&#xD;
+			}&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IEDILMZEeurRcXnMM8IMw" name="threeDigits" specification="_11Zl0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IEDIbMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IEDIrMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int d_count = 0;&#xD;
+		for (int i = 0; i &lt; pw.length(); i++) {&#xD;
+			if (Character.isDigit(pw.charAt(i))) {&#xD;
+				d_count += 1;&#xD;
+			}&#xD;
+		}&#xD;
+		if (d_count > 2) {&#xD;
+			return true;&#xD;
+		}&#xD;
+		else {&#xD;
+			return false;&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IEqMLMZEeurRcXnMM8IMw" name="main" specification="_11cpILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IEqMbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IEqMrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read password&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.print(&quot;Enter Password: &quot;);&#xD;
+		String pw = input.nextLine();&#xD;
+		// Check conditions&#xD;
+		if (twoCharacters(pw) &amp;&amp; onlyLettersDigits(pw) &amp;&amp; threeDigits(pw)) {&#xD;
+			System.out.println(&quot;Valid Password&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Invalid Password&quot;);&#xD;
+&#xD;
+		}&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_11WigLMZEeurRcXnMM8IMw" name="twoCharacters" isStatic="true" method="_2ICN8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11XJkLMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11XJkbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11YXsLMZEeurRcXnMM8IMw" name="onlyLettersDigits" isStatic="true" method="_2IDcELMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11YXsbMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11Y-wLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11Zl0LMZEeurRcXnMM8IMw" name="threeDigits" isStatic="true" method="_2IEDILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11aM4LMZEeurRcXnMM8IMw" name="pw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11az8LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11cpILMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IEqMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11dQMLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_11d3QLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_11fFYLMZEeurRcXnMM8IMw" name="q3">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IFRQLMZEeurRcXnMM8IMw" name="validString" specification="_11iIsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IF4ULMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IF4UbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; str.length(); i++) {&#xD;
+			if (str.toLowerCase().charAt(i) == 'w' || str.toLowerCase().charAt(i) == 'd' || str.toLowerCase().charAt(i) == 'l'){&#xD;
+				continue;&#xD;
+			}&#xD;
+			else {&#xD;
+				return false;&#xD;
+			}&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IGfYLMZEeurRcXnMM8IMw" name="totalPoints" specification="_11kk8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IGfYbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IGfYrMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double total = 0;&#xD;
+		// Add 3 points for 'w'&#xD;
+		for (int i = 0; i &lt; str.length(); i++) {&#xD;
+			if (str.toLowerCase().charAt(i) == 'w'){&#xD;
+				total += 3;&#xD;
+			}&#xD;
+		}&#xD;
+		// Add 1 point for 'd'&#xD;
+		for (int i = 0; i &lt; str.length(); i++) {&#xD;
+			if (str.toLowerCase().charAt(i) == 'd'){&#xD;
+				total += 1;&#xD;
+			}&#xD;
+		}&#xD;
+		return total;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IHGcLMZEeurRcXnMM8IMw" name="avgPoints" specification="_11oPULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IHGcbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IHGcrMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double avg = totalPoints(str)/(str.length());&#xD;
+		return avg;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IIUkLMZEeurRcXnMM8IMw" name="main" specification="_11qEgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IIUkbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IIUkrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read string&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.print(&quot;Enter a string : &quot;);&#xD;
+		String str = input.nextLine();&#xD;
+		// Check conditions&#xD;
+		while (!validString(str)){&#xD;
+			System.out.println(&quot;Invalid format, enter again.&quot;);&#xD;
+			str = input.nextLine();&#xD;
+		}&#xD;
+		System.out.format(&quot;Total points: %.0f \nAverage points: %.2f&quot;, totalPoints(str), avgPoints(str));&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_11iIsLMZEeurRcXnMM8IMw" name="validString" isStatic="true" method="_2IFRQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11iIsbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11jW0LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11kk8LMZEeurRcXnMM8IMw" name="totalPoints" isStatic="true" method="_2IGfYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11lMALMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11maILMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11oPULMZEeurRcXnMM8IMw" name="avgPoints" isStatic="true" method="_2IHGcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11oPUbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11o2YLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11qEgLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IIUkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11qrkLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_11rSoLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1yYuELMZEeurRcXnMM8IMw" name="hw3">
+      <packagedElement xmi:type="uml:Class" xmi:id="_11sgwLMZEeurRcXnMM8IMw" name="Account">
+        <ownedAttribute xmi:id="_2HGZ0LMZEeurRcXnMM8IMw" name="id" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HHn8bMZEeurRcXnMM8IMw" name="balance" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HJdILMZEeurRcXnMM8IMw" name="dateCreated" visibility="package" type="_2EsmELMZEeurRcXnMM8IMw" association="_2JN5sLMZEeurRcXnMM8IMw"/>
+        <ownedAttribute xmi:id="_2HKrQLMZEeurRcXnMM8IMw" name="annualInterestRate" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2II7oLMZEeurRcXnMM8IMw" name="Account" specification="_11xZQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2II7obMZEeurRcXnMM8IMw" type="_11sgwLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.id = 0;&#xD;
+		this.balance = 0;&#xD;
+		this.dateCreated = LocalDate.now();&#xD;
+		this.annualInterestRate = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IKJwLMZEeurRcXnMM8IMw" name="Account" specification="_111DoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IKJwbMZEeurRcXnMM8IMw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IKJwrMZEeurRcXnMM8IMw" name="balance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IKJw7MZEeurRcXnMM8IMw" type="_11sgwLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+		this.balance = balance;&#xD;
+		this.dateCreated = LocalDate.now();&#xD;
+		this.annualInterestRate = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IKw0LMZEeurRcXnMM8IMw" name="getId" specification="_113f4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IKw0bMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return id;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ILX4LMZEeurRcXnMM8IMw" name="setId" specification="_116jMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ILX4bMZEeurRcXnMM8IMw" name="newId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.id = newId;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IL-8LMZEeurRcXnMM8IMw" name="getBalance" specification="_117xULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IL-8bMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return balance;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IMmALMZEeurRcXnMM8IMw" name="setBalance" specification="_119mgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IMmAbMZEeurRcXnMM8IMw" name="newBalance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.balance = newBalance;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2INNELMZEeurRcXnMM8IMw" name="getAnnualInterestRate" specification="_11_bsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2INNEbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return annualInterestRate;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IN0ILMZEeurRcXnMM8IMw" name="setAnnualInterestRate" specification="_12BQ4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IN0IbMZEeurRcXnMM8IMw" name="newRate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.annualInterestRate = newRate;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IObMLMZEeurRcXnMM8IMw" name="getDateCreated" specification="_12B38LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IObMbMZEeurRcXnMM8IMw" type="_2EsmELMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>return dateCreated;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IPCQLMZEeurRcXnMM8IMw" name="getMonthlyInterest" specification="_12DtILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IPCQbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return balance*annualInterestRate/12;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IPCQrMZEeurRcXnMM8IMw" name="withdraw" specification="_12E7QLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IPCQ7MZEeurRcXnMM8IMw" name="amt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.balance -= amt;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IPpULMZEeurRcXnMM8IMw" name="deposit" specification="_12GwcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IPpUbMZEeurRcXnMM8IMw" name="amt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.balance += amt;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IPpUrMZEeurRcXnMM8IMw" name="toString" specification="_12HXgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IPpU7MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return String.format(&quot;%d, %.2f, %tD&quot;, id, balance, dateCreated);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IQQYLMZEeurRcXnMM8IMw" name="main" specification="_12JMsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IQQYbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IQQYrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Account test1 = new Account(101, 20000);&#xD;
+		test1.setAnnualInterestRate(0.045);&#xD;
+		test1.withdraw(2500);&#xD;
+		test1.deposit(3000);&#xD;
+		System.out.format(&quot;Balance = %.2f\n&quot;, test1.getBalance());&#xD;
+		System.out.format(&quot;Monthly interest = %.2f\n&quot;, test1.getMonthlyInterest());&#xD;
+		System.out.format(&quot;Date created = %tD\n&quot;, test1.getDateCreated());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_11xZQLMZEeurRcXnMM8IMw" name="Account" method="_2II7oLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_11yAULMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_11ynYLMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_11ynYbMZEeurRcXnMM8IMw" type="_11sgwLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_111DoLMZEeurRcXnMM8IMw" name="Account" method="_2IKJwLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_112RwLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_11240LMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_111qsLMZEeurRcXnMM8IMw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_111qsbMZEeurRcXnMM8IMw" name="balance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_11240bMZEeurRcXnMM8IMw" type="_11sgwLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_113f4LMZEeurRcXnMM8IMw" name="getId" method="_2IKw0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_114uALMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_116jMLMZEeurRcXnMM8IMw" name="setId" method="_2ILX4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_116jMbMZEeurRcXnMM8IMw" name="newId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_117xULMZEeurRcXnMM8IMw" name="getBalance" method="_2IL-8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_118YYLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_119mgLMZEeurRcXnMM8IMw" name="setBalance" method="_2IMmALMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_11-NkLMZEeurRcXnMM8IMw" name="newBalance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_11_bsLMZEeurRcXnMM8IMw" name="getAnnualInterestRate" method="_2INNELMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12Ap0LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12BQ4LMZEeurRcXnMM8IMw" name="setAnnualInterestRate" method="_2IN0ILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12BQ4bMZEeurRcXnMM8IMw" name="newRate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12B38LMZEeurRcXnMM8IMw" name="getDateCreated" method="_2IObMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2F8jQLMZEeurRcXnMM8IMw" type="_2EsmELMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12DtILMZEeurRcXnMM8IMw" name="getMonthlyInterest" method="_2IPCQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12EUMLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12E7QLMZEeurRcXnMM8IMw" name="withdraw" method="_2IPCQrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12FiULMZEeurRcXnMM8IMw" name="amt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12GwcLMZEeurRcXnMM8IMw" name="deposit" method="_2IPpULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12GwcbMZEeurRcXnMM8IMw" name="amt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12HXgLMZEeurRcXnMM8IMw" name="toString" method="_2IPpUrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12H-kLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12JMsLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IQQYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12JzwLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_12Ka0LMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_12PTULMZEeurRcXnMM8IMw" name="RegularPolygon">
+        <ownedAttribute xmi:id="_2HNHgLMZEeurRcXnMM8IMw" name="n" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HO8sLMZEeurRcXnMM8IMw" name="length" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IRegLMZEeurRcXnMM8IMw" name="RegularPolygon" specification="_12RIgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IRegbMZEeurRcXnMM8IMw" type="_12PTULMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.n = 3;&#xD;
+		this.length = 1;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ISFkLMZEeurRcXnMM8IMw" name="RegularPolygon" specification="_124zkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ISFkbMZEeurRcXnMM8IMw" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2ISFkrMZEeurRcXnMM8IMw" name="length">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2ISFk7MZEeurRcXnMM8IMw" type="_12PTULMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.n = n;&#xD;
+		this.length = length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ISsoLMZEeurRcXnMM8IMw" name="getN" specification="_126owLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ISsobMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return n;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ITTsLMZEeurRcXnMM8IMw" name="setN" specification="_12724LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ITTsbMZEeurRcXnMM8IMw" name="newN">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (newN &lt; 0) {&#xD;
+			System.out.println(&quot;Error: Number must be positive.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.n = newN;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ITTsrMZEeurRcXnMM8IMw" name="getLength" specification="_129FALMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IT6wLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IT6wbMZEeurRcXnMM8IMw" name="setLength" specification="_12-TILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IT6wrMZEeurRcXnMM8IMw" name="newLength">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (newLength &lt; 0) {&#xD;
+			System.out.println(&quot;Error: Number must be positive.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.length = newLength;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IUh0LMZEeurRcXnMM8IMw" name="getPerimeter" specification="_12_hQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IUh0bMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return n*length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IUh0rMZEeurRcXnMM8IMw" name="getArea" specification="_13BWcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IUh07MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return n*length*length/(4*Math.tan(Math.PI/n));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IVI4LMZEeurRcXnMM8IMw" name="toString" specification="_13CkkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IVI4bMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return String.format(&quot;%d, %.2f&quot;, n, length);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IVv8LMZEeurRcXnMM8IMw" name="main" specification="_13EZwLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IVv8bMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IVv8rMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// array of RegularPolygons&#xD;
+		RegularPolygon arr[] = new RegularPolygon[4];&#xD;
+		arr[0] = new RegularPolygon(3, 10.0);&#xD;
+		arr[1] = new RegularPolygon(6, 7.5);&#xD;
+		arr[2] = new RegularPolygon(8, 3.5);&#xD;
+		arr[3] = new RegularPolygon(12, 4.0);&#xD;
+		// Variables to record smallest perimeter, largest area&#xD;
+		double small_per = arr[0].getPerimeter();&#xD;
+		int small_per_ind = 0;&#xD;
+		double large_area = arr[0].getArea();&#xD;
+		int large_area_ind = 0;&#xD;
+		// loop through array&#xD;
+		for (int i = 0; i &lt; arr.length; i++) {&#xD;
+			// update smallest perimeter&#xD;
+			if (arr[i].getPerimeter() &lt; small_per) {&#xD;
+				small_per_ind = i;&#xD;
+			}&#xD;
+			// update largest area&#xD;
+			if (arr[i].getArea() > large_area) {&#xD;
+				large_area_ind = i;&#xD;
+			}&#xD;
+			// print string, perimeter and area&#xD;
+			System.out.format(&quot;String representaation: (%s), Perimeter = %.2f, Area = %.2f \n&quot;, &#xD;
+								arr[i].toString(), arr[i].getPerimeter(), arr[i].getArea() );&#xD;
+		}&#xD;
+		// print smallest perimeter and largest area strings&#xD;
+		System.out.format(&quot;Smallest perimeter: %s \n&quot;, arr[small_per_ind].toString());&#xD;
+		System.out.format(&quot;Largest area: %s \n&quot;, arr[large_area_ind].toString());&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_12RIgLMZEeurRcXnMM8IMw" name="RegularPolygon" method="_2IRegLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_12RvkLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_12RvkbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_12RvkrMZEeurRcXnMM8IMw" type="_12PTULMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_124zkLMZEeurRcXnMM8IMw" name="RegularPolygon" method="_2ISFkLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_125aoLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_125aobMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_124zkbMZEeurRcXnMM8IMw" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_124zkrMZEeurRcXnMM8IMw" name="length">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_125aorMZEeurRcXnMM8IMw" type="_12PTULMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_126owLMZEeurRcXnMM8IMw" name="getN" method="_2ISsoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_127P0LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12724LMZEeurRcXnMM8IMw" name="setN" method="_2ITTsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_128d8LMZEeurRcXnMM8IMw" name="newN">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_129FALMZEeurRcXnMM8IMw" name="getLength" method="_2ITTsrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_129sELMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12-TILMZEeurRcXnMM8IMw" name="setLength" method="_2IT6wbMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_12-6MLMZEeurRcXnMM8IMw" name="newLength">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_12_hQLMZEeurRcXnMM8IMw" name="getPerimeter" method="_2IUh0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13AIULMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13BWcLMZEeurRcXnMM8IMw" name="getArea" method="_2IUh0rMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13B9gLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13CkkLMZEeurRcXnMM8IMw" name="toString" method="_2IVI4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13DLoLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13EZwLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IVv8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13EZwbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13FA0LMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2JN5sLMZEeurRcXnMM8IMw" name="" memberEnd="_2JN5sbMZEeurRcXnMM8IMw _2HJdILMZEeurRcXnMM8IMw">
+        <ownedEnd xmi:id="_2JN5sbMZEeurRcXnMM8IMw" name="" type="_11sgwLMZEeurRcXnMM8IMw" association="_2JN5sLMZEeurRcXnMM8IMw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1ypMwLMZEeurRcXnMM8IMw" name="hw4">
+      <packagedElement xmi:type="uml:Class" xmi:id="_13HdELMZEeurRcXnMM8IMw" name="Q1">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IWXALMZEeurRcXnMM8IMw" name="main" specification="_13J5ULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IWXAbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IWXArMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>File f = new File(args[0]);&#xD;
+   if (!f.exists()) {&#xD;
+ 	  System.out.format(&quot;File doesn't exist.&quot;);&#xD;
+		  return;&#xD;
+	  }&#xD;
+   FileReader fr = new FileReader(f);&#xD;
+   BufferedReader br = new BufferedReader(fr);&#xD;
+   int c = 0;             &#xD;
+   int[] count = {0,1,0};&#xD;
+   while((c = br.read()) != -1){&#xD;
+ 	  char character = (char) c;&#xD;
+ 	  count[0] += 1;&#xD;
+ 	  if (character == ' ') {&#xD;
+ 		  count[1] += 1;&#xD;
+ 	  }&#xD;
+ 	  if (character == '\n'){&#xD;
+ 		  count[2] += 1;&#xD;
+       }&#xD;
+   }&#xD;
+   br.close();&#xD;
+   System.out.format(&quot;%d characters\n%d words\n%d lines\n&quot;, count[0], count[1], count[2]);&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_13J5ULMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IWXALMZEeurRcXnMM8IMw" raisedException="_2FBWMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13J5UbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13KgYLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_13M8oLMZEeurRcXnMM8IMw" name="Q2">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IW-ELMZEeurRcXnMM8IMw" name="main" specification="_13Ox0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IW-EbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IW-ErMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Date date = new Date();&#xD;
+		SimpleDateFormat formatter = new SimpleDateFormat(&quot;MMM dd HH_mm_ss&quot;);&#xD;
+		String f_new = args[0]+formatter.format(date);&#xD;
+	    File f = new File(args[0]);&#xD;
+	    if (!f.exists()) {&#xD;
+	    	System.out.format(&quot;File doesn't exist.&quot;);&#xD;
+		    return;&#xD;
+	    }&#xD;
+	    File f2 = new File(f_new);&#xD;
+	    if (f2.exists()) throw new java.io.IOException(&quot;File already exists.&quot;);&#xD;
+	    if (f.renameTo(f2)) {&#xD;
+			System.out.format(&quot;Success. New file is %s&quot;, f_new);&#xD;
+	    }&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_13Ox0LMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IW-ELMZEeurRcXnMM8IMw" raisedException="_2FBWMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13PY4LMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13ROELMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1y6SgLMZEeurRcXnMM8IMw" name="ma5">
+      <packagedElement xmi:type="uml:Class" xmi:id="_13URYLMZEeurRcXnMM8IMw" name="Circle">
+        <generalization xmi:id="_2GGUQLMZEeurRcXnMM8IMw" general="_2GCC0LMZEeurRcXnMM8IMw"/>
+        <ownedAttribute xmi:id="_2HQx4LMZEeurRcXnMM8IMw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IXlILMZEeurRcXnMM8IMw" name="Circle" specification="_13XUsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IXlIbMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this(1.0);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IYMMLMZEeurRcXnMM8IMw" name="Circle" specification="_13Zw8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IYMMbMZEeurRcXnMM8IMw" name="radius">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IYMMrMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.radius = radius;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IYzQLMZEeurRcXnMM8IMw" name="Circle" specification="_13cNMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IYzQbMZEeurRcXnMM8IMw" name="radius">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IYzQrMZEeurRcXnMM8IMw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IYzQ7MZEeurRcXnMM8IMw" name="filled">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IYzRLMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(color, filled);&#xD;
+		this.radius = radius;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IZaULMZEeurRcXnMM8IMw" name="getDiameter" specification="_13eCYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IZaUbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 2 * radius;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IaBYLMZEeurRcXnMM8IMw" name="getArea" specification="_13f3kLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IaBYbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return radius * radius * Math.PI;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IaocLMZEeurRcXnMM8IMw" name="getPerimeter" specification="_13lXILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IaocbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 2 * radius * Math.PI;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IaocrMZEeurRcXnMM8IMw" name="toString" specification="_13pBgrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Iaoc7MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + &quot;, radius: &quot; + radius;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IbPgLMZEeurRcXnMM8IMw" name="scale" specification="_13t6ALMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IbPgbMZEeurRcXnMM8IMw" name="factor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (factor > 0) {&#xD;
+			this.setRadius(this.getRadius()*factor);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_13XUsLMZEeurRcXnMM8IMw" name="Circle" method="_2IXlILMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_13X7wLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_13Yi0LMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_13Yi0bMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13Zw8LMZEeurRcXnMM8IMw" name="Circle" method="_2IYMMLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_13aYALMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_13aYAbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_13Zw8bMZEeurRcXnMM8IMw" name="radius">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_13aYArMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13cNMLMZEeurRcXnMM8IMw" name="Circle" method="_2IYzQLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_13c0QrMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_13dbULMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_13cNMbMZEeurRcXnMM8IMw" name="radius">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_13c0QLMZEeurRcXnMM8IMw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_13c0QbMZEeurRcXnMM8IMw" name="filled">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_13dbUbMZEeurRcXnMM8IMw" type="_13URYLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13eCYLMZEeurRcXnMM8IMw" name="getDiameter" method="_2IZaULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13fQgLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13f3kLMZEeurRcXnMM8IMw" name="getArea" method="_2IaBYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13geoLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13lXILMZEeurRcXnMM8IMw" name="getPerimeter" method="_2IaocLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13mlQLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13pBgrMZEeurRcXnMM8IMw" name="toString" method="_2IaocrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13q2sLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_13t6ALMZEeurRcXnMM8IMw" name="scale" method="_2IbPgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_13t6AbMZEeurRcXnMM8IMw" name="factor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_130nsLMZEeurRcXnMM8IMw" name="Scalable" visibility="package">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_134SELMZEeurRcXnMM8IMw" name="GeometricObject" isAbstract="true">
+          <eAnnotations xmi:id="_1345ILMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1345IbMZEeurRcXnMM8IMw" key="sameFile"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_2HSAALMZEeurRcXnMM8IMw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_2HSnELMZEeurRcXnMM8IMw" name="filled">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_2HT1MLMZEeurRcXnMM8IMw" name="dateCreated" type="_2FHc0LMZEeurRcXnMM8IMw" isReadOnly="true"/>
+          <interfaceRealization xmi:id="_2GMa4LMZEeurRcXnMM8IMw" client="_134SELMZEeurRcXnMM8IMw" supplier="_2GJ-oLMZEeurRcXnMM8IMw" contract="_2GJ-oLMZEeurRcXnMM8IMw"/>
+          <interfaceRealization xmi:id="_2FXUcLMZEeurRcXnMM8IMw" client="_134SELMZEeurRcXnMM8IMw" supplier="_130nsLMZEeurRcXnMM8IMw" contract="_130nsLMZEeurRcXnMM8IMw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IcdoLMZEeurRcXnMM8IMw" name="GeometricObject" specification="_138jgLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IcdobMZEeurRcXnMM8IMw" type="_134SELMZEeurRcXnMM8IMw" direction="return"/>
+            <language>java</language>
+            <body>this(&quot;white&quot;, false);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IdEsLMZEeurRcXnMM8IMw" name="GeometricObject" specification="_13_m0LMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IdEsbMZEeurRcXnMM8IMw" name="color">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IdEsrMZEeurRcXnMM8IMw" name="filled">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IdEs7MZEeurRcXnMM8IMw" type="_134SELMZEeurRcXnMM8IMw" direction="return"/>
+            <language>java</language>
+            <body>this.color = color;&#xD;
+		this.filled = filled;&#xD;
+		dateCreated = new Date();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IdrwLMZEeurRcXnMM8IMw" name="toString" specification="_14FGYLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IdrwbMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;created: &quot; + dateCreated + &quot;, color: &quot; + color + &quot;, filled: &quot; + filled;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IeS0LMZEeurRcXnMM8IMw" name="compareTo" specification="_2GQsULMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IeS0bMZEeurRcXnMM8IMw" name="g" type="_2GCC0LMZEeurRcXnMM8IMw"/>
+            <ownedParameter xmi:id="_2IeS0rMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if(this.getArea() &lt; g.getArea())&#xD;
+	          return -1;&#xD;
+	    else if(this.getArea() > g.getArea())&#xD;
+	          return 1;&#xD;
+	    return 0;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_138jgLMZEeurRcXnMM8IMw" name="GeometricObject" visibility="protected" method="_2IcdoLMZEeurRcXnMM8IMw">
+            <eAnnotations xmi:id="_139KkLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_139KkbMZEeurRcXnMM8IMw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_139xoLMZEeurRcXnMM8IMw" type="_134SELMZEeurRcXnMM8IMw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_13_m0LMZEeurRcXnMM8IMw" name="GeometricObject" visibility="protected" method="_2IdEsLMZEeurRcXnMM8IMw">
+            <eAnnotations xmi:id="_14A08LMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_14A08bMZEeurRcXnMM8IMw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_14AN4LMZEeurRcXnMM8IMw" name="color">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14AN4bMZEeurRcXnMM8IMw" name="filled">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14A08rMZEeurRcXnMM8IMw" type="_134SELMZEeurRcXnMM8IMw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14CDELMZEeurRcXnMM8IMw" name="getArea" isAbstract="true">
+            <ownedParameter xmi:id="_14CqILMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14DRMLMZEeurRcXnMM8IMw" name="getPerimeter" isAbstract="true">
+            <ownedParameter xmi:id="_14EfULMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14FGYLMZEeurRcXnMM8IMw" name="toString" method="_2IdrwLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_14GUgLMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_2GQsULMZEeurRcXnMM8IMw" name="compareTo" method="_2IeS0LMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2GRTYLMZEeurRcXnMM8IMw" name="g" type="_2GCC0LMZEeurRcXnMM8IMw"/>
+            <ownedParameter xmi:id="_2GR6cLMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <ownedOperation xmi:id="_14OQULMZEeurRcXnMM8IMw" name="scale" isAbstract="true">
+          <ownedParameter xmi:id="_14O3YLMZEeurRcXnMM8IMw" name="factor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_14YoYLMZEeurRcXnMM8IMw" name="Rotatable" visibility="package">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_14bEoLMZEeurRcXnMM8IMw" name="Rectangle">
+          <eAnnotations xmi:id="_14brsLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_14brsbMZEeurRcXnMM8IMw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_2GZ2QLMZEeurRcXnMM8IMw" general="_2GCC0LMZEeurRcXnMM8IMw"/>
+          <ownedAttribute xmi:id="_2HWRcLMZEeurRcXnMM8IMw" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_2HXfkLMZEeurRcXnMM8IMw" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_2FeCILMZEeurRcXnMM8IMw" client="_14bEoLMZEeurRcXnMM8IMw" supplier="_14YoYLMZEeurRcXnMM8IMw" contract="_14YoYLMZEeurRcXnMM8IMw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ie54LMZEeurRcXnMM8IMw" name="Rectangle" specification="_14eH8LMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2Ie54bMZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+            <language>java</language>
+            <body>this(1.0, 1.0);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ifg8LMZEeurRcXnMM8IMw" name="Rectangle" specification="_14hLQLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2Ifg8bMZEeurRcXnMM8IMw" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2Ifg8rMZEeurRcXnMM8IMw" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2Ifg87MZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+            <language>java</language>
+            <body>this.width = width;&#xD;
+		this.height = height;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IgIALMZEeurRcXnMM8IMw" name="Rectangle" specification="_14kOkLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IgIAbMZEeurRcXnMM8IMw" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IgIArMZEeurRcXnMM8IMw" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IgIA7MZEeurRcXnMM8IMw" name="color">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IgIBLMZEeurRcXnMM8IMw" name="filled">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_2IgIBbMZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+            <language>java</language>
+            <body>super(color, filled);&#xD;
+		this.width = width;&#xD;
+		this.height = height;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IgvELMZEeurRcXnMM8IMw" name="getArea" specification="_14mDwLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IgvEbMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return width * height;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IhWILMZEeurRcXnMM8IMw" name="getPerimeter" specification="_14puILMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2IhWIbMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return 2 * (width + height);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ih9MLMZEeurRcXnMM8IMw" name="toString" specification="_14sxcbMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2Ih9MbMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return super.toString() + &quot;, width: &quot; + width + &quot;, height: &quot; + height;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ih9MrMZEeurRcXnMM8IMw" name="scale" specification="_14wb0LMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_2Ih9M7MZEeurRcXnMM8IMw" name="factor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if (factor > 0) {&#xD;
+			this.setHeight(this.getHeight()*factor);&#xD;
+			this.setWidth(this.getWidth()*factor);&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IikQLMZEeurRcXnMM8IMw" name="rotate" specification="_14zfIbMZEeurRcXnMM8IMw">
+            <language>java</language>
+            <body>double tmp = this.getHeight();&#xD;
+		this.setHeight(this.getWidth());&#xD;
+		this.setWidth(tmp);&#xD;
+	&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_14eH8LMZEeurRcXnMM8IMw" name="Rectangle" method="_2Ie54LMZEeurRcXnMM8IMw">
+            <eAnnotations xmi:id="_14evALMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_14fWELMZEeurRcXnMM8IMw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_14fWEbMZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14hLQLMZEeurRcXnMM8IMw" name="Rectangle" method="_2Ifg8LMZEeurRcXnMM8IMw">
+            <eAnnotations xmi:id="_14iZYLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_14iZYbMZEeurRcXnMM8IMw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_14hLQbMZEeurRcXnMM8IMw" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14hyULMZEeurRcXnMM8IMw" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14iZYrMZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14kOkLMZEeurRcXnMM8IMw" name="Rectangle" method="_2IgIALMZEeurRcXnMM8IMw">
+            <eAnnotations xmi:id="_14k1orMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_14lcsLMZEeurRcXnMM8IMw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_14kOkbMZEeurRcXnMM8IMw" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14kOkrMZEeurRcXnMM8IMw" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14k1oLMZEeurRcXnMM8IMw" name="color">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14k1obMZEeurRcXnMM8IMw" name="filled">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_14lcsbMZEeurRcXnMM8IMw" type="_14bEoLMZEeurRcXnMM8IMw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14mDwLMZEeurRcXnMM8IMw" name="getArea" method="_2IgvELMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_14nR4LMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14puILMZEeurRcXnMM8IMw" name="getPerimeter" method="_2IhWILMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_14qVMLMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14sxcbMZEeurRcXnMM8IMw" name="toString" method="_2Ih9MLMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_14t_kLMZEeurRcXnMM8IMw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14wb0LMZEeurRcXnMM8IMw" name="scale" method="_2Ih9MrMZEeurRcXnMM8IMw">
+            <ownedParameter xmi:id="_14xC4LMZEeurRcXnMM8IMw" name="factor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_14zfIbMZEeurRcXnMM8IMw" name="rotate" method="_2IikQLMZEeurRcXnMM8IMw"/>
+        </nestedClassifier>
+        <ownedOperation xmi:id="_144XoLMZEeurRcXnMM8IMw" name="rotate" isAbstract="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_14-eQLMZEeurRcXnMM8IMw" name="Test">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IjyYLMZEeurRcXnMM8IMw" name="main" specification="_15ATcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IjyYbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IjyYrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Create an array of geometric objects&#xD;
+		GeometricObject[] shapes = {&#xD;
+				new Circle(5), &#xD;
+				new Rectangle(3, 1),&#xD;
+				new Circle(),&#xD;
+				new Circle(15),&#xD;
+				new Rectangle(1, 2)&#xD;
+		};&#xD;
+&#xD;
+		// Scale all Scalable geometric objects by a factor of 2.0&#xD;
+		scaleGeometricObjects(shapes, 2.0);&#xD;
+&#xD;
+		// Rotate the first Rotable geometric object found in the array&#xD;
+		rotateFirstGeometricObject(shapes);&#xD;
+&#xD;
+		// Display the array elements&#xD;
+		displayGeometricObjects(shapes);&#xD;
+&#xD;
+		System.out.println(&quot;\n********************\n&quot;);&#xD;
+&#xD;
+		// Sort the array and display its elements&#xD;
+		java.util.Arrays.sort(shapes);&#xD;
+		displayGeometricObjects(shapes);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IkZcLMZEeurRcXnMM8IMw" name="scaleGeometricObjects" specification="_2Gc5kLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IkZcbMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IkZcrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IkZc7MZEeurRcXnMM8IMw" name="factor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (GeometricObject o: arr)&#xD;
+			if (o instanceof Scalable)&#xD;
+				((Scalable) o).scale(factor);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IlnkLMZEeurRcXnMM8IMw" name="rotateFirstGeometricObject" specification="_2GfV0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IlnkbMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IlnkrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (GeometricObject o: arr)&#xD;
+			if (o instanceof Rotatable) {&#xD;
+				((Rotatable) o).rotate();&#xD;
+				break;&#xD;
+			}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ImOoLMZEeurRcXnMM8IMw" name="displayGeometricObjects" specification="_2GhyELMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ImOobMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2ImOorMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (GeometricObject o: arr)&#xD;
+			System.out.printf(&quot;%s, area: %.2f\n&quot;, o.toString(), o.getArea());	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_15ATcLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IjyYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15A6gLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15CIoLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2Gc5kLMZEeurRcXnMM8IMw" name="scaleGeometricObjects" isStatic="true" method="_2IkZcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GdgoLMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GeHsLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2GdgobMZEeurRcXnMM8IMw" name="factor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GfV0LMZEeurRcXnMM8IMw" name="rotateFirstGeometricObject" isStatic="true" method="_2IlnkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GfV0bMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Ggj8LMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GhyELMZEeurRcXnMM8IMw" name="displayGeometricObjects" isStatic="true" method="_2ImOoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GiZILMZEeurRcXnMM8IMw" name="arr" type="_2GCC0LMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GjAMLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2GCC0LMZEeurRcXnMM8IMw" name="GeometricObject"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1zdsILMZEeurRcXnMM8IMw" name="project">
+      <packagedElement xmi:type="uml:Class" xmi:id="_15HoMLMZEeurRcXnMM8IMw" name="LimitedPlayer">
+        <generalization xmi:id="_2FhFcLMZEeurRcXnMM8IMw" general="_15gCsLMZEeurRcXnMM8IMw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Im1sLMZEeurRcXnMM8IMw" name="LimitedPlayer" specification="_15KEcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Im1sbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Im1srMZEeurRcXnMM8IMw" type="_15HoMLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(name+&quot; (Limited)&quot;);&#xD;
+		super.setScore(50);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_15KEcLMZEeurRcXnMM8IMw" name="LimitedPlayer" method="_2Im1sLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_15KrgLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_15KrgbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_15KEcbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_15KrgrMZEeurRcXnMM8IMw" type="_15HoMLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_15NHwLMZEeurRcXnMM8IMw" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Im1s7MZEeurRcXnMM8IMw" name="main" specification="_15QyILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Im1tLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Im1tbMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ArrayList&lt;Player> players = new ArrayList&lt;Player>();&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		// Main menu loop&#xD;
+		while (true) {&#xD;
+			System.out.format(&quot;Please choose an option: \n1. New Player \n2. Quit\n&quot;);&#xD;
+			int option = input.nextInt();&#xD;
+			if (option == 1) {&#xD;
+				System.out.println(&quot;Please enter a name:&quot;);&#xD;
+				String name = input.next();&#xD;
+				System.out.format(&quot;What type of player are you? \n1. VIP \n2. Limited \n3. None of the above\n&quot;);&#xD;
+				int type = input.nextInt();&#xD;
+				Player newPlayer;&#xD;
+				if (type == 1) {&#xD;
+					newPlayer = new VIPPlayer(name);&#xD;
+					players.add(newPlayer);&#xD;
+				}&#xD;
+				else if (type == 2){&#xD;
+					newPlayer = new LimitedPlayer(name);&#xD;
+					players.add(newPlayer);&#xD;
+				}&#xD;
+				else {&#xD;
+					newPlayer = new Player(name);&#xD;
+					players.add(newPlayer);&#xD;
+				}&#xD;
+				// Games menu loop&#xD;
+				chooseGame(newPlayer, input);&#xD;
+			}&#xD;
+			else if (option == 2) {&#xD;
+				Leaderboard(players);&#xD;
+				break;&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;Error. Invalid entry.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IncwLMZEeurRcXnMM8IMw" name="chooseGame" specification="_2Gk1YLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IncwbMZEeurRcXnMM8IMw" name="newPlayer" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2IncwrMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+          <language>java</language>
+          <body>while (true) {&#xD;
+			System.out.format(&quot;Hello %s, Please choose a game, or -1 to quit: \n1. Rock, Paper, Scissors \n2. CoinFlip\n&quot;, newPlayer.getName());&#xD;
+			int game = input.nextInt();&#xD;
+			if (game == 1) {&#xD;
+				double bet = chooseBet(newPlayer, input);&#xD;
+				RockPaperScissors(newPlayer, bet, input);&#xD;
+			}&#xD;
+			else if (game == 2) {&#xD;
+				double bet = chooseBet(newPlayer, input);&#xD;
+				CoinFlip(newPlayer, bet, input);&#xD;
+			}&#xD;
+			else if (game == -1){&#xD;
+				break;&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IoD0LMZEeurRcXnMM8IMw" name="chooseBet" specification="_2GnRoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IoD0bMZEeurRcXnMM8IMw" name="newPlayer" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2IoD0rMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2IoD07MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.format(&quot;Enter an amount to bet:\n&quot;);&#xD;
+		double bet = input.nextDouble();&#xD;
+		if (newPlayer instanceof LimitedPlayer) {&#xD;
+			// Limited players can only bet up to 20% of their score&#xD;
+			while(bet > newPlayer.getScore()*0.2 || bet &lt; 0) {&#xD;
+				if (bet > 0) {&#xD;
+					System.out.println(&quot;Error: bet is too high. Try again:&quot;);&#xD;
+					bet = input.nextDouble();&#xD;
+				}&#xD;
+				else {&#xD;
+					System.out.println(&quot;Error: bet must be non-negative. Try again:&quot;);&#xD;
+					bet = input.nextDouble();&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		else {&#xD;
+			while(bet > newPlayer.getScore() || bet &lt; 0) {&#xD;
+				if (bet > 0) {&#xD;
+					System.out.println(&quot;Error: bet is too high. Try again:&quot;);&#xD;
+					bet = input.nextDouble();&#xD;
+				}&#xD;
+				else {&#xD;
+					System.out.println(&quot;Error: bet must be non-negative. Try again:&quot;);&#xD;
+					bet = input.nextDouble();&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		return bet;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ioq4LMZEeurRcXnMM8IMw" name="rpsChoice" specification="_15VDkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Ioq4bMZEeurRcXnMM8IMw" name="choice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ioq4rMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (choice == 1) {&#xD;
+			return &quot;Rock&quot;;&#xD;
+		}&#xD;
+		else if (choice == 2) {&#xD;
+			return &quot;Paper&quot;;&#xD;
+		}&#xD;
+		else if (choice == 3){&#xD;
+			return &quot;Scissors&quot;;&#xD;
+		}&#xD;
+		else {&#xD;
+			return &quot;Error. Invalid entry.&quot;;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ioq47MZEeurRcXnMM8IMw" name="RockPaperScissors" specification="_2GqU8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Ioq5LMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2Ioq5bMZEeurRcXnMM8IMw" name="bet">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ioq5rMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+          <language>java</language>
+          <body>Random rand = new Random();&#xD;
+		System.out.println(&quot;Lets play 3 rounds of Rock, Paper, Scissors!&quot;);&#xD;
+		int count = 0;&#xD;
+		for (int i = 0; i &lt; 3; i++){&#xD;
+			System.out.format(&quot;Choose from below: \n1. Rock \n2. Paper \n3. Scissors \n&quot;);&#xD;
+			int choice = input.nextInt();&#xD;
+			int opponent = rand.nextInt(3)+1;&#xD;
+			if (choice == opponent) {&#xD;
+				System.out.format(&quot;You chose %s, I chose %s, result: draw.\n&quot;, rpsChoice(choice), rpsChoice(opponent));&#xD;
+			}&#xD;
+			else {&#xD;
+				if (opponent == ((choice % 3) + 1)){&#xD;
+					count -= 1;&#xD;
+					System.out.format(&quot;You chose %s, I chose %s, result: you lose.\n&quot;, rpsChoice(choice), rpsChoice(opponent));&#xD;
+				}&#xD;
+				else {&#xD;
+					count += 1;&#xD;
+					System.out.format(&quot;You chose %s, I chose %s, result: you win.\n&quot;, rpsChoice(choice), rpsChoice(opponent));&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		if (count == 0) {&#xD;
+			System.out.format(&quot;Overall result: draw, your bet was returned.\n&quot;);&#xD;
+			bet = 0;&#xD;
+		}&#xD;
+		else if (count &lt; 0) {&#xD;
+			System.out.format(&quot;Overall result: your bet lost.\n&quot;);&#xD;
+			bet *= -1;&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.format(&quot;Overall result: your bet won.\n&quot;);&#xD;
+			// VIP's get 10% extra win bonus&#xD;
+			if (p instanceof VIPPlayer) {&#xD;
+				bet *= 1.1;&#xD;
+			}&#xD;
+		}&#xD;
+		p.addToScore(bet);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IpR8LMZEeurRcXnMM8IMw" name="CoinFlip" specification="_2GsKILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IpR8bMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2IpR8rMZEeurRcXnMM8IMw" name="bet">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IpR87MZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+          <language>java</language>
+          <body>Random rand = new Random();&#xD;
+		System.out.println(&quot;Lets play CoinFlip! Geuss at least 3 out of 5 correctly to win your bet:&quot;);&#xD;
+		int count = 0;&#xD;
+		for (int i = 0; i &lt; 5; i++) {&#xD;
+			System.out.format(&quot;Choose from below: \n1. Heads \n2. Tails \n&quot;);&#xD;
+			int choice = input.nextInt();&#xD;
+			int coin = rand.nextInt(2)+1;&#xD;
+			if (coin == 1) {&#xD;
+				System.out.println(&quot;The result was Heads.&quot;);	&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;The result was Tails.&quot;);					&#xD;
+			}&#xD;
+			if (choice == coin) {	&#xD;
+				count++;&#xD;
+			}&#xD;
+		}&#xD;
+		if (count &lt; 3) {&#xD;
+			System.out.format(&quot;You got %d correct: your bet lost.\n&quot;, count);&#xD;
+			p.addToScore(-bet);&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.format(&quot;You got %d correct: your bet won.\n&quot;, count);&#xD;
+			p.addToScore(bet);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ip5ALMZEeurRcXnMM8IMw" name="Leaderboard" specification="_2GwbkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Ip5AbMZEeurRcXnMM8IMw" name="players" type="_2Gt_ULMZEeurRcXnMM8IMw"/>
+          <language>java</language>
+          <body>try {&#xD;
+			File f = new File(&quot;leaderboard.txt&quot;);&#xD;
+			f.createNewFile();&#xD;
+		} &#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;An error occurred.&quot;);&#xD;
+		    e.printStackTrace();&#xD;
+		}&#xD;
+		 &#xD;
+		try {&#xD;
+			FileWriter fw = new FileWriter(&quot;leaderboard.txt&quot;, true);&#xD;
+			System.out.println(&quot;Player : Points&quot;);&#xD;
+			Collections.sort(players);&#xD;
+			for (Player p: players) {&#xD;
+				System.out.format(&quot;%s : %,.2f\n&quot;, p.getName(), p.getScore());&#xD;
+				fw.write(String.format(&quot;%s : %,.2f\n&quot;, p.getName(), p.getScore()));&#xD;
+			}&#xD;
+			fw.close();&#xD;
+		}&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;An error occurred.&quot;);&#xD;
+		    e.printStackTrace();			 &#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_15QyILMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2Im1s7MZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15RZMLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15SnULMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_15VDkLMZEeurRcXnMM8IMw" name="rpsChoice" isStatic="true" method="_2Ioq4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15VDkbMZEeurRcXnMM8IMw" name="choice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_15VqoLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2Gk1YLMZEeurRcXnMM8IMw" name="chooseGame" isStatic="true" method="_2IncwLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GlccLMZEeurRcXnMM8IMw" name="newPlayer" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2GlccbMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GnRoLMZEeurRcXnMM8IMw" name="chooseBet" isStatic="true" method="_2IoD0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Gn4sLMZEeurRcXnMM8IMw" name="newPlayer" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2Gn4sbMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2GofwLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GqU8LMZEeurRcXnMM8IMw" name="RockPaperScissors" isStatic="true" method="_2Ioq47MZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GqU8bMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2Gq8ALMZEeurRcXnMM8IMw" name="bet">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Gq8AbMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GsKILMZEeurRcXnMM8IMw" name="CoinFlip" isStatic="true" method="_2IpR8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GsKIbMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2GsKIrMZEeurRcXnMM8IMw" name="bet">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2GsxMLMZEeurRcXnMM8IMw" name="input" type="_2EnGgLMZEeurRcXnMM8IMw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GwbkLMZEeurRcXnMM8IMw" name="Leaderboard" isStatic="true" method="_2Ip5ALMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2GwbkbMZEeurRcXnMM8IMw" name="players" type="_2Gt_ULMZEeurRcXnMM8IMw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_15gCsLMZEeurRcXnMM8IMw" name="Player">
+        <ownedAttribute xmi:id="_2HZUwLMZEeurRcXnMM8IMw" name="numberOfPlayers" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_2Hai4LMZEeurRcXnMM8IMw" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2Hc_ILMZEeurRcXnMM8IMw" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HeNQLMZEeurRcXnMM8IMw" name="name" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HeNQbMZEeurRcXnMM8IMw" name="score">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_2He0ULMZEeurRcXnMM8IMw" value="100"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_2G1UELMZEeurRcXnMM8IMw" client="_15gCsLMZEeurRcXnMM8IMw" supplier="_2GJ-oLMZEeurRcXnMM8IMw" contract="_2GJ-oLMZEeurRcXnMM8IMw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IruMLMZEeurRcXnMM8IMw" name="Player" specification="_15jtELMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IruMbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IruMrMZEeurRcXnMM8IMw" type="_15gCsLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+		id = ++numberOfPlayers;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IruM7MZEeurRcXnMM8IMw" name="addToScore" specification="_15mJULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IruNLMZEeurRcXnMM8IMw" name="result">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.score += result;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IsVQLMZEeurRcXnMM8IMw" name="toString" specification="_15nXcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IsVQbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;id: &quot; + id + &quot;, name: &quot; + name + &quot;, score: &quot; + score;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Is8ULMZEeurRcXnMM8IMw" name="compareTo" specification="_2Fkv0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Is8UbMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2Is8UrMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (score == p.getScore()) {&#xD;
+			return 0;&#xD;
+		}&#xD;
+		else if (score &lt; p.getScore()) {&#xD;
+			return 1;&#xD;
+		}&#xD;
+		else {&#xD;
+			return -1;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_15jtELMZEeurRcXnMM8IMw" name="Player" method="_2IruMLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_15kUILMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_15k7MLMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_15jtEbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_15k7MbMZEeurRcXnMM8IMw" type="_15gCsLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_15mJULMZEeurRcXnMM8IMw" name="addToScore" method="_2IruM7MZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15mJUbMZEeurRcXnMM8IMw" name="result">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_15nXcLMZEeurRcXnMM8IMw" name="toString" method="_2IsVQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15n-gLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2Fkv0LMZEeurRcXnMM8IMw" name="compareTo" method="_2Is8ULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Fkv0bMZEeurRcXnMM8IMw" name="p" type="_15gCsLMZEeurRcXnMM8IMw"/>
+          <ownedParameter xmi:id="_2FlW4LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_15usMLMZEeurRcXnMM8IMw" name="VIPPlayer">
+        <generalization xmi:id="_2FnMELMZEeurRcXnMM8IMw" general="_15gCsLMZEeurRcXnMM8IMw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2ItjYLMZEeurRcXnMM8IMw" name="VIPPlayer" specification="_15whYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2ItjYbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2ItjYrMZEeurRcXnMM8IMw" type="_15usMLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(name+&quot; (VIP)&quot;);&#xD;
+		super.setScore(500);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_15whYLMZEeurRcXnMM8IMw" name="VIPPlayer" method="_2ItjYLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_15xIcbMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_15xIcrMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_15xIcLMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_15xvgLMZEeurRcXnMM8IMw" type="_15usMLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1zzqYLMZEeurRcXnMM8IMw" name="test1">
+      <packagedElement xmi:type="uml:Class" xmi:id="_15y9oLMZEeurRcXnMM8IMw" name="Q1">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IuKcLMZEeurRcXnMM8IMw" name="main" specification="_150y0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IuKcbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IuKcrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read numbers into array&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.print(&quot;Enter 10 integers: &quot;);&#xD;
+		double[] nums = new double[10];&#xD;
+		for(int i = 0; i &lt; nums.length; i++) {&#xD;
+			nums[i] = input.nextInt();&#xD;
+		}&#xD;
+		// Find largest number in array&#xD;
+		double largest = 0;&#xD;
+		for(int i = 0; i &lt; nums.length; i++) {&#xD;
+			if (nums[i] > largest) {&#xD;
+				largest = nums[i];&#xD;
+			}&#xD;
+		}&#xD;
+		// Normalise array&#xD;
+		for(int i = 0; i &lt; nums.length; i++) {&#xD;
+			nums[i] = nums[i]/largest;&#xD;
+		}&#xD;
+		//Print array&#xD;
+		System.out.println(Arrays.toString(nums));&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_150y0LMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IuKcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_151Z4LMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_152A8LMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_153PELMZEeurRcXnMM8IMw" name="Q2">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IuxgLMZEeurRcXnMM8IMw" name="randomChar" specification="_155EQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IuxgbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IuxgrMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Generate random number between 0 and 100&#xD;
+		Random rand = new Random();&#xD;
+		int rand_int = rand.nextInt(100);&#xD;
+		// Use modulo to reduce the number to a valid index&#xD;
+		int i = rand_int%(str.length());&#xD;
+		return str.charAt(i);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IvYkLMZEeurRcXnMM8IMw" name="main" specification="_156SYLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IvYkbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IvYkrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read string&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.print(&quot;Enter string: &quot;);&#xD;
+		String str = input.nextLine();&#xD;
+		// Call method on string&#xD;
+		System.out.println(randomChar(str));&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_155EQLMZEeurRcXnMM8IMw" name="randomChar" isStatic="true" method="_2IuxgLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_155EQbMZEeurRcXnMM8IMw" name="str">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_155rULMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_156SYLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IvYkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_1565cLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_157ggLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_158HkLMZEeurRcXnMM8IMw" name="Q3">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Iv_oLMZEeurRcXnMM8IMw" name="rollDice" specification="_1598wLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Iv_obMZEeurRcXnMM8IMw" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Random rand = new Random();&#xD;
+		// Initialise array, avg&#xD;
+		int[] results = new int[n];&#xD;
+		double avg = 0;&#xD;
+		// Generate random dice rolls&#xD;
+		for (int i = 0; i&lt;n; i++) {&#xD;
+			int dice1 = 1+rand.nextInt(6);&#xD;
+			int dice2 = 1+rand.nextInt(6);&#xD;
+			results[i] = dice1 + dice2;&#xD;
+			avg += Double.valueOf(results[i])/Double.valueOf(n);&#xD;
+		}&#xD;
+		// Print array, avg&#xD;
+		System.out.println(Arrays.toString(results));&#xD;
+		System.out.format(&quot;Average: %.2f&quot;, avg);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IwmsLMZEeurRcXnMM8IMw" name="main" specification="_15_K4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IwmsbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2IwmsrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Read number of rolls&#xD;
+		Scanner input = new Scanner(System.in);&#xD;
+		System.out.println(&quot;Enter number of times: &quot;);&#xD;
+		int n = input.nextInt();&#xD;
+		// Call method&#xD;
+		rollDice(n);&#xD;
+		input.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1598wLMZEeurRcXnMM8IMw" name="rollDice" isStatic="true" method="_2Iv_oLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_1598wbMZEeurRcXnMM8IMw" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_15_K4LMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2IwmsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_15_x8LMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15_x8bMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1z6_ILMZEeurRcXnMM8IMw" name="test2">
+      <packagedElement xmi:type="uml:Class" xmi:id="_16BAELMZEeurRcXnMM8IMw" name="Employee">
+        <generalization xmi:id="_2FtSsLMZEeurRcXnMM8IMw" general="_16fhMLMZEeurRcXnMM8IMw"/>
+        <ownedAttribute xmi:id="_2HfbYLMZEeurRcXnMM8IMw" name="salary" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IxNwLMZEeurRcXnMM8IMw" name="Employee" specification="_16C1QLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IxNwbMZEeurRcXnMM8IMw" type="_16BAELMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>salary = 12345.0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ix00LMZEeurRcXnMM8IMw" name="Employee" specification="_16EqcLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Ix00bMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ix00rMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ix007MZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ix01LMZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2Ix01bMZEeurRcXnMM8IMw" type="_16BAELMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(name, age, email);&#xD;
+		this.setSalary(salary);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Ix01rMZEeurRcXnMM8IMw" name="setSalary" specification="_16HGsLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Ix017MZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (salary &lt; 0) {&#xD;
+			System.out.println(&quot;Error: Salary must be non-negative.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.salary = salary;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Iyb4LMZEeurRcXnMM8IMw" name="toString" specification="_16IU0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2Iyb4bMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + salary + &quot;\n&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_16C1QLMZEeurRcXnMM8IMw" name="Employee" method="_2IxNwLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16DcULMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16DcUbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16DcUrMZEeurRcXnMM8IMw" type="_16BAELMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16EqcLMZEeurRcXnMM8IMw" name="Employee" method="_2Ix00LMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16F4kbMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16F4krMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16FRgLMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16FRgbMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16FRgrMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16F4kLMZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16F4k7MZEeurRcXnMM8IMw" type="_16BAELMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16HGsLMZEeurRcXnMM8IMw" name="setSalary" method="_2Ix01rMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16HtwLMZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16IU0LMZEeurRcXnMM8IMw" name="toString" method="_2Iyb4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16Ji8LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_16ObcLMZEeurRcXnMM8IMw" name="Manager">
+        <generalization xmi:id="_2Fug0LMZEeurRcXnMM8IMw" general="_16BAELMZEeurRcXnMM8IMw"/>
+        <ownedAttribute xmi:id="_2HgpgLMZEeurRcXnMM8IMw" name="bonus" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HhQkLMZEeurRcXnMM8IMw" name="office">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IzC8LMZEeurRcXnMM8IMw" name="Manager" specification="_16QQoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IzC8bMZEeurRcXnMM8IMw" type="_16ObcLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>bonus = 50;&#xD;
+		office = &quot;Office1&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2IzC8rMZEeurRcXnMM8IMw" name="Manager" specification="_16Ss4LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2IzC87MZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC9LMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC9bMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC9rMZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC97MZEeurRcXnMM8IMw" name="bonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC-LMZEeurRcXnMM8IMw" name="office">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2IzC-bMZEeurRcXnMM8IMw" type="_16ObcLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(name, age, email, salary);&#xD;
+		this.bonus = bonus;&#xD;
+		this.office = office;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I0RELMZEeurRcXnMM8IMw" name="setBonus" specification="_16VJILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I0REbMZEeurRcXnMM8IMw" name="bonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (bonus &lt; 0) {&#xD;
+			System.out.println(&quot;Error: Bonus must be non-negative.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.bonus = bonus;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I0RErMZEeurRcXnMM8IMw" name="getSalary" specification="_16WXQLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I0RE7MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.getSalary() + bonus;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I04ILMZEeurRcXnMM8IMw" name="toString" specification="_16ZakbMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I04IbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + bonus + &quot;\n&quot; + office + &quot;\n&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_16QQoLMZEeurRcXnMM8IMw" name="Manager" method="_2IzC8LMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16Q3sLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16RewLMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16RewbMZEeurRcXnMM8IMw" type="_16ObcLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16Ss4LMZEeurRcXnMM8IMw" name="Manager" method="_2IzC8rMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16T7ALMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16T7AbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16Ss4bMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16TT8LMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16TT8bMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16TT8rMZEeurRcXnMM8IMw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16TT87MZEeurRcXnMM8IMw" name="bonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16TT9LMZEeurRcXnMM8IMw" name="office">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16T7ArMZEeurRcXnMM8IMw" type="_16ObcLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16VJILMZEeurRcXnMM8IMw" name="setBonus" method="_2I0RELMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16VJIbMZEeurRcXnMM8IMw" name="bonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16WXQLMZEeurRcXnMM8IMw" name="getSalary" method="_2I0RErMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16W-ULMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16ZakbMZEeurRcXnMM8IMw" name="toString" method="_2I04ILMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16aosLMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_16fhMLMZEeurRcXnMM8IMw" name="Person">
+        <ownedAttribute xmi:id="_2HiesLMZEeurRcXnMM8IMw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2HjFwLMZEeurRcXnMM8IMw" name="age">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2Hjs0LMZEeurRcXnMM8IMw" name="email">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I1fMLMZEeurRcXnMM8IMw" name="Person" specification="_16h9cLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I1fMbMZEeurRcXnMM8IMw" type="_16fhMLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this(&quot;Firstname Lastname&quot;, 0, &quot;firstname.lastname@somemail.com&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I1fMrMZEeurRcXnMM8IMw" name="Person" specification="_16jyoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I2GQLMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I2GQbMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I2GQrMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I2GQ7MZEeurRcXnMM8IMw" type="_16fhMLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;
+		this.age = age;
+		this.email = email;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I2GRLMZEeurRcXnMM8IMw" name="toString" specification="_16ln0LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I2GRbMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name + &quot;\n&quot; + age +&quot;\n&quot; + email + &quot;\n&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_16h9cLMZEeurRcXnMM8IMw" name="Person" method="_2I1fMLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16ikgLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16ikgbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16jLkLMZEeurRcXnMM8IMw" type="_16fhMLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16jyoLMZEeurRcXnMM8IMw" name="Person" method="_2I1fMrMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16lAwLMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16lAwbMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16kZsLMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16kZsbMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16kZsrMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16lAwrMZEeurRcXnMM8IMw" type="_16fhMLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16ln0LMZEeurRcXnMM8IMw" name="toString" method="_2I2GRLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16m18LMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_16rucLMZEeurRcXnMM8IMw" name="Student">
+        <generalization xmi:id="_2Fw9ELMZEeurRcXnMM8IMw" general="_16fhMLMZEeurRcXnMM8IMw"/>
+        <ownedAttribute xmi:id="_2HkT4LMZEeurRcXnMM8IMw" name="number">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I2tULMZEeurRcXnMM8IMw" name="Student" specification="_16tjoLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I2tUbMZEeurRcXnMM8IMw" type="_16rucLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>number = &quot;12345678&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I3UYLMZEeurRcXnMM8IMw" name="Student" specification="_16uxwLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I3UYbMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I3UYrMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I3UY7MZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I3UZLMZEeurRcXnMM8IMw" name="number">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_2I3UZbMZEeurRcXnMM8IMw" type="_16rucLMZEeurRcXnMM8IMw" direction="return"/>
+          <language>java</language>
+          <body>super(name, age, email);
+		this.number = number;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I3UZrMZEeurRcXnMM8IMw" name="toString" specification="_16wm8LMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I3UZ7MZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + number + &quot;\n&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_16tjoLMZEeurRcXnMM8IMw" name="Student" method="_2I2tULMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16tjobMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16tjorMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16uKsLMZEeurRcXnMM8IMw" type="_16rucLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16uxwLMZEeurRcXnMM8IMw" name="Student" method="_2I3UYLMZEeurRcXnMM8IMw">
+          <eAnnotations xmi:id="_16v_4LMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_16v_4bMZEeurRcXnMM8IMw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_16vY0LMZEeurRcXnMM8IMw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16vY0bMZEeurRcXnMM8IMw" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16vY0rMZEeurRcXnMM8IMw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16vY07MZEeurRcXnMM8IMw" name="number">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_16v_4rMZEeurRcXnMM8IMw" type="_16rucLMZEeurRcXnMM8IMw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_16wm8LMZEeurRcXnMM8IMw" name="toString" method="_2I3UZrMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_16x1ELMZEeurRcXnMM8IMw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_161fcLMZEeurRcXnMM8IMw" name="Test">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I37cLMZEeurRcXnMM8IMw" name="main" specification="_162tkLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I37cbMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2I37crMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// declare, create and initialise an array of Person objects
+		// When you have implemented Manager and Employee, you should be able
+		// to uncomment the commented code below.
+		Person[] people = {
+			  new Manager(&quot;C. Darwin&quot;, 455, &quot;c.darwin@species.com&quot;, 150000, 1000, &quot;Room 101&quot;),
+			  new Person(&quot;J. Doe&quot;, 200, &quot;j.doe@supermail.com&quot;), 
+			  new Student(&quot;A. Bee&quot;, 120, &quot;a.bee@bettermail.com&quot;, &quot;19000091&quot;), 
+			  new Employee(&quot;B. Cee&quot;, 111, &quot;b.cee@okmail.com&quot;, 50000), 
+			  new Student(),
+			  new Manager(&quot;A. Einstein&quot;, 105, &quot;a.einstein@emc2.com&quot;, 100000, 2000, &quot;Room 202&quot;)					
+		};
+		
+		// display the objects
+		display(people);
+		
+		// display student numbers
+		displayNumbers(people);
+		
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I37c7MZEeurRcXnMM8IMw" name="display" specification="_2FyLMLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I37dLMZEeurRcXnMM8IMw" name="arr" type="_16fhMLMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2I37dbMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; arr.length; i++)
+			System.out.println(arr[i].toString());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2I4igLMZEeurRcXnMM8IMw" name="displayNumbers" specification="_2FzZULMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2I4igbMZEeurRcXnMM8IMw" name="arr" type="_16fhMLMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2I4igrMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; arr.length; i++)
+			if (arr[i] instanceof Student) {
+				System.out.println( ( (Student)arr[i]).getNumber() );
+			}
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_162tkLMZEeurRcXnMM8IMw" name="main" isStatic="true" method="_2I37cLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_163UoLMZEeurRcXnMM8IMw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1637sLMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2FyLMLMZEeurRcXnMM8IMw" name="display" isStatic="true" method="_2I37c7MZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2FyyQLMZEeurRcXnMM8IMw" name="arr" type="_16fhMLMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2FyyQbMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2FzZULMZEeurRcXnMM8IMw" name="displayNumbers" isStatic="true" method="_2I4igLMZEeurRcXnMM8IMw">
+          <ownedParameter xmi:id="_2F0AYLMZEeurRcXnMM8IMw" name="arr" type="_16fhMLMZEeurRcXnMM8IMw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2F0AYbMZEeurRcXnMM8IMw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_1HjoYLMZEeurRcXnMM8IMw">
+      <eAnnotations xmi:id="_1HqWELMZEeurRcXnMM8IMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_1H18QLMZEeurRcXnMM8IMw" base_Package="_x5RHcLMZEeurRcXnMM8IMw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_13QnALMZEeurRcXnMM8IMw" base_Element="_13Ox0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Array xmi:id="_13R1ILMZEeurRcXnMM8IMw" base_Element="_13PY4LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_13hswLMZEeurRcXnMM8IMw" base_Element="_13f3kLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_13kJALMZEeurRcXnMM8IMw" base_Element="_13f3kLMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_13kwELMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_13nzYLMZEeurRcXnMM8IMw" base_Element="_13lXILMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_13pBgLMZEeurRcXnMM8IMw" base_Element="_13lXILMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_13pBgbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_13rdwLMZEeurRcXnMM8IMw" base_Element="_13pBgrMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_13sr4LMZEeurRcXnMM8IMw" base_Element="_13pBgrMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_13sr4bMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_13vIILMZEeurRcXnMM8IMw" base_Element="_13t6ALMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_13wWQLMZEeurRcXnMM8IMw" base_Element="_13t6ALMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_13wWQbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_14HioLMZEeurRcXnMM8IMw" base_Element="_14FGYLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_14IJsLMZEeurRcXnMM8IMw" base_Element="_14FGYLMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_14IJsbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_14ogALMZEeurRcXnMM8IMw" base_Element="_14mDwLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_14pHELMZEeurRcXnMM8IMw" base_Element="_14mDwLMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_14pHEbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_14rjULMZEeurRcXnMM8IMw" base_Element="_14puILMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_14sKYLMZEeurRcXnMM8IMw" base_Element="_14puILMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_14sxcLMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_14umoLMZEeurRcXnMM8IMw" base_Element="_14sxcbMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_14v0wLMZEeurRcXnMM8IMw" base_Element="_14sxcbMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_14v0wbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_14yRALMZEeurRcXnMM8IMw" base_Element="_14wb0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_14y4ELMZEeurRcXnMM8IMw" base_Element="_14wb0LMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_14zfILMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_140tQLMZEeurRcXnMM8IMw" base_Element="_14zfIbMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_1417YLMZEeurRcXnMM8IMw" base_Element="_14zfIbMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_1417YbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_16KKALMZEeurRcXnMM8IMw" base_Element="_16IU0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_16LYILMZEeurRcXnMM8IMw" base_Element="_16IU0LMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_16LYIbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_16YMcLMZEeurRcXnMM8IMw" base_Element="_16WXQLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_16YzgLMZEeurRcXnMM8IMw" base_Element="_16WXQLMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_16ZakLMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_16bPwLMZEeurRcXnMM8IMw" base_Element="_16ZakbMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_16b20LMZEeurRcXnMM8IMw" base_Element="_16ZakbMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_16b20bMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_16ndALMZEeurRcXnMM8IMw" base_Element="_16ln0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_16oEELMZEeurRcXnMM8IMw" base_Element="_16ln0LMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_16orILMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_16ycILMZEeurRcXnMM8IMw" base_Element="_16wm8LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_16zDMLMZEeurRcXnMM8IMw" base_Element="_16wm8LMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_16zDMbMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_2EqJ0LMZEeurRcXnMM8IMw" base_Element="_2EnGgLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2EubQLMZEeurRcXnMM8IMw" base_Element="_2EsmELMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2E1wALMZEeurRcXnMM8IMw" base_Element="_2EzTwLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2E7PkLMZEeurRcXnMM8IMw" base_Element="_2E4zULMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2E9r0LMZEeurRcXnMM8IMw" base_Element="_2E72oLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2FAvILMZEeurRcXnMM8IMw" base_Element="_2E-S4LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2FDycLMZEeurRcXnMM8IMw" base_Element="_2FBWMLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2FG1wLMZEeurRcXnMM8IMw" base_Element="_2FFAkLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2FJSALMZEeurRcXnMM8IMw" base_Element="_2FHc0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2FpBQLMZEeurRcXnMM8IMw" base_Element="_2FnzILMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2Fq2cLMZEeurRcXnMM8IMw" base_Element="_2FpoULMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2GFGILMZEeurRcXnMM8IMw" base_Element="_2GCC0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Reference xmi:id="_2GLz0LMZEeurRcXnMM8IMw" base_Element="_2GJ-oLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Generics xmi:id="_2GO3ILMZEeurRcXnMM8IMw" genericsValue="GeometricObject" base_Element="_2GMa4LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GShgLMZEeurRcXnMM8IMw" base_Element="_2GQsULMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Annotations xmi:id="_2GTvoLMZEeurRcXnMM8IMw" base_Element="_2GQsULMZEeurRcXnMM8IMw">
+    <annotations xmi:id="_2GUWsLMZEeurRcXnMM8IMw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_2Gv0gLMZEeurRcXnMM8IMw" base_Element="_2Gt_ULMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Generics xmi:id="_2Gze4LMZEeurRcXnMM8IMw" genericsValue="Player" base_Element="_2GwbkbMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:Generics xmi:id="_2G4XYLMZEeurRcXnMM8IMw" genericsValue="Player" base_Element="_2G1UELMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HHn8LMZEeurRcXnMM8IMw" base_Element="_2HGZ0LMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HI2ELMZEeurRcXnMM8IMw" base_Element="_2HHn8bMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HKEMLMZEeurRcXnMM8IMw" base_Element="_2HJdILMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HLSULMZEeurRcXnMM8IMw" base_Element="_2HKrQLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HOVoLMZEeurRcXnMM8IMw" base_Element="_2HNHgLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HPjwLMZEeurRcXnMM8IMw" base_Element="_2HO8sLMZEeurRcXnMM8IMw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HZ70LMZEeurRcXnMM8IMw" base_Element="_2HZUwLMZEeurRcXnMM8IMw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_2HbxALMZEeurRcXnMM8IMw" name="getNumberOfPlayers" isStatic="true" method="_2IqgELMZEeurRcXnMM8IMw">
+      <ownedParameter xmi:id="_2HcYELMZEeurRcXnMM8IMw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2HdmMLMZEeurRcXnMM8IMw" base_Element="_2Hc_ILMZEeurRcXnMM8IMw"/>
+  <uml:OpaqueBehavior xmi:id="_2IqgELMZEeurRcXnMM8IMw" name="getNumberOfPlayers" specification="_2HbxALMZEeurRcXnMM8IMw">
+    <ownedParameter xmi:id="_2IrHILMZEeurRcXnMM8IMw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return numberOfPlayers;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_2JPu4LMZEeurRcXnMM8IMw" base_Element="_2JN5sLMZEeurRcXnMM8IMw"/>
+</xmi:XMI>
