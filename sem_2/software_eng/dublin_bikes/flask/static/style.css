@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* info window */
+td:nth-child(even){
+  padding-left: 5px;
+  text-align: right;
+
+}
+
+/* Map */
+#map{
+    height: 90%;
+}

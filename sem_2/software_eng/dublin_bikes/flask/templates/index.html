@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dublin Bikes App</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'style.css') }}">
+    <script type="text/javascript" src="{{url_for('static', filename= 'stations.js')}}"></script>
+</head>
+
+<body>
+    <div id="date"></div>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDARbQlv-avMdOjKOUMJQESgtPSTQghFjc&callback=initMap&libraries=&v=weekly"
+           async
+   ></script>
+
+</body>
+</html>
